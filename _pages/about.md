@@ -24,6 +24,8 @@ I am currently working as a research assistant at National Astronomical Observat
 
 ## Experience
 **Sep. 2018 - June. 2022** Bachelor of Engineering, School of Aerospace Engineering, Tsinghua University, Beijing, China
+
 **March. 2021 - Present** Internship, Canadian Institute for Theoretical Astrophysics
+
 **July. 2022 - Present** Research Assistant, National Astronomical Observatories, CAS, China
 
