@@ -9,7 +9,7 @@ profile:
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>A124, National Astronomy Observatories, CAS</p>
+    <p>A124, NAOC, CAS</p>
     <p>20A Datun Road, Chaoyang District</p>
     <p>Beijing, 100101, China</p>
 
@@ -25,7 +25,7 @@ I am currently working as a research assistant at National Astronomical Observat
 ## Experience
 **Sep. 2018 - June. 2022** Bachelor of Engineering, School of Aerospace Engineering, Tsinghua University, Beijing, China
 
-**March. 2021 - Present** Internship, Canadian Institute for Theoretical Astrophysics
+**March. 2021 - Present** Internship, CITA, University of Toronto
 
 **July. 2022 - Present** Research Assistant, National Astronomical Observatories, CAS, China
 
