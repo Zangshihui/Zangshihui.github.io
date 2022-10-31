@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='http://english.nao.cas.cn/'>NAOC, CAS</a>.
 
