@@ -1,17 +1,22 @@
 ---
 layout: page
-title: project 1
+title: Cosmic Tidal Reconstruction In Redshift Space
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/Cor2D_5T.jpg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Tidal reconstruction exploits the small-scale anisotropic distortions of mass distributions to retrieve the large-scale structure of the universe, which has the potential to conduct multi-tracer analysis with future sky surveys. However, the redshift space distortion (RSD) is likely to affect the reconstruction results by bringing extra distortions to the small-scale structure. In this work we explore the performance of the tidal reconstruciton in the redshift space using halo fields. We bring up a model to explain the full-shear tidal reconstructed results.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Slice_5T_XZ.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Slice_5T_XZ.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
     ---
     layout: page
