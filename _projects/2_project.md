@@ -1,80 +1,34 @@
 ---
 layout: page
 title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+description: Constraining vCDM With Iterative Initial Condition Reconstruction
+img: assets/img/Contour.jpg
 importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The late-time matter distribution is highly non-Gaussian due to the non-linear gravitational evolution, making the 2-pt function inefficient when extracting information from small-scale structures. Iterative reconstruction can recover the initial Gaussian density field with high fidelity, thus allowing us to extract more information from the density field using only the 2-pt function. Based on the dark matter particle catalogs of the Quijote simulation, we compare the Fisher information contained in the reconstructed power spectrum and the non-linear power spectrum. We find that the iterative reconstruction can potentially improve the measurement of $\Omega_m, \Omega_b, h, n_s, \sigma_8$  and $M_\nu$ by a factor of 2.9, 2.4, 2.4, 2.5, 2.8 and 2.9 respectively. We also compare the information content of the reconstructed power of the iterative and linear reconstruction. These two reconstruction algorithms give similar results on large scales, while the iterative reconstruction performs better on small scales than the linear reconstruction.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Contour.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+This figure shows the Fisher error of the post-reconstruction power at cutoff scale $k_{\mathrm{max}} = 0.5 \ h\mathrm{Mpc}^{-1}$. The reconstructed power spectrum can achieve a tighter constraint on $\nu$CDM cosmology.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Constraint.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+This figure shows the trend of the Fisher error when we include more and more small-scale information. On large scales, non-linear powewr and reconstructed power gives similar constraints on cosmological parameters. But when we go further into the non-linear regime, the reconstructed can extract more information from the density field than the non-linear power. This extra information comes from the high-order information of the original density field. Moreover, quite a part of the information comes from the BAO wiggle. The sharped BAO wiggle after reconstruction provides a better measurement of six parameters.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Cov_Deri.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+We also find that the retrieved information mainly comes from the reconstructed derivatives.
