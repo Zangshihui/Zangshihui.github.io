@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Cosmic Tidal Reconstruction In Redshift Space
-description: 
+title: Tidal Reconstruction
+description: Cosmic Tidal Reconstruction In Redshift Space
 img: assets/img/Cor2D_5T.jpg
 importance: 1
 category: work
