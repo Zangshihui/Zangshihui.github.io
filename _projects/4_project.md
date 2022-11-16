@@ -3,7 +3,6 @@ layout: page
 title: Cosmic Tides
 description: Measure cosmic tides with DES Y1 data
 img: assets/img/DES.jpg
-redirect: https://unsplash.com
 importance: 4
 category: work
 ---

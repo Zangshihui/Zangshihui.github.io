@@ -3,7 +3,6 @@ layout: page
 title: Electrostatic Sampler
 description: Flexible Electrostatic Sampler Based On Traveling Wave
 img: assets/img/Sampler_3d.png
-redirect: https://unsplash.com
 importance: 5
 category: work
 ---
