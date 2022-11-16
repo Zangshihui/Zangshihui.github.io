@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 2
+title: Non-linear Reconstruction
 description: Constraining vCDM With Iterative Initial Condition Reconstruction
 img: assets/img/Contour.jpg
 importance: 2
