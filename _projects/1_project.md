@@ -18,7 +18,7 @@ Tidal reconstruction exploits the small-scale anisotropic distortions of mass di
     </div>
 </div>
 
- The left panel shows the 2-D Slice of the reconstructed density fields on x-z plane using full-shear term tidal reconstruction. While the right panel shows the one using transverse-shear term tidal reconstruction. In redshift space, the full-shear tidal reconstruction result is blurred by the small-scale distortion of mass distribution, while the transverse-shear term tidal reconstruction result remains almost the same as that in the real space.
+ The left panel shows the 2-D Slice of the reconstructed density fields on x-z plane using full-shear term tidal reconstruction. While the right panel shows the one using transverse-shear term tidal reconstruction. In redshift space, the full-shear tidal reconstruction result is blurred by the small-scale distortion of mass distribution, while the transverse-shear term tidal reconstruction result remains almost the same as that in the real space. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
