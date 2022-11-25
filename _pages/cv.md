@@ -6,4 +6,4 @@ nav: true
 nav_order: 4
 cv_pdf: CV.pdf
 ---
-Please download my CV here.
+Please download my [CV](www) here.
